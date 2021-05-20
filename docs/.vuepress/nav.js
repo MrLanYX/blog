@@ -41,6 +41,7 @@ module.exports = [{
     {
         text: '时间线',
         link: '/timeline/',
+        icon: 'reco-date',
     },
     {
         text: '关于我',
