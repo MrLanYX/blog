@@ -40,6 +40,13 @@ module.exports = {
         //     appId: '...', // your appId
         //     appKey: '...', // your appKey
         // },
+        // vssueConfig: {
+        //     platform: 'github',
+        //     owner: 'OWNER_OF_REPO',
+        //     repo: 'NAME_OF_REPO',
+        //     clientId: 'YOUR_CLIENT_ID',
+        //     clientSecret: 'YOUR_CLIENT_SECRET',
+        // },
         friendLink: [{
                 title: 'vuepress-theme-reco',
                 desc: 'A simple and beautiful vuepress Blog & Doc theme.',
