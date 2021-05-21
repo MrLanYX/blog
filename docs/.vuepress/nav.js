@@ -16,26 +16,15 @@ module.exports = [{
         items: [
             { text: '服务器', link: '/guide/server/' },
             { text: '博客', link: '/guide/blog/' },
-            { text: '微服务', link: '/guide/microservice/' },
         ]
     },
     {
-        text: '拓展技能',
+        text: '旁门左道',
         link: '/other/',
-        items: [{
-                text: '工具箱',
-                items: [
-                    { text: '浏览器扩展', link: '/other/webextend/' },
-                    { text: '云盘', link: '/other/cloud/' },
-                    { text: '下载服务', link: '/other/download/' },
-                ]
-            },
-            {
-                text: '旁门左道',
-                items: [
-                    { text: '收藏夹', link: '/other/favorites/' },
-                ]
-            },
+        items: [
+            { text: '浏览器扩展', link: '/other/webextend/' },
+            { text: '私人云盘', link: '/other/cloud/' },
+            { text: '收藏夹', link: '/other/favorites/' },
         ]
     },
     {
