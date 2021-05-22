@@ -1,5 +1,5 @@
 --- 
-title: 第一章：VuePress 搭建
+title: VuePress 搭建
 date: 2021-05-21 16:38:46
 author: 'Mr.Lan'
 sidebar: 'auto'
@@ -8,16 +8,9 @@ categories:
 tags: 
  - vue
  - vuepress
- - web
 publish: true
-sticky:
- - false
- - 1
- - 1
 autoGroup-1: vuepress
 ---
-
-# VuePress
 ***
 ::: tip
 采用vue官方的静态网页生成器
@@ -26,14 +19,13 @@ autoGroup-1: vuepress
 :::
 
 ## **1. 框架搭建**
-***
 vuepress官网有详细的安装和引用
 
 在此就不过多介绍，本博客并没有采用最新的vuepress，而是引用了君哥教程的版本
 
 搭建之前建议看下视频[B站：1小时带你搭建vuepress高大上个人博客（极速上手版）](https://www.bilibili.com/video/BV17t41177cr)
 
-### **1.1 安装vuepress**
+## **2. 安装vuepress**
 安装好淘宝镜像之后
 
 ::: danger 版本注意事项
@@ -48,7 +40,7 @@ cnpm install -D vuepress@1.5.2
 如果你的现有项目依赖了 webpack 3.x，我们推荐使用 Yarn (opens new window)而不是 npm 来安装 VuePress。因为在这种情形下，npm 会生成错误的依赖树。
 ::: 
 
-### **1.2 文件目录**
+## **3. 文件目录**
 在安装好vuepress之后先确认好文件树的配置
 
 这一项关系着后面菜单导航的分类
@@ -61,7 +53,7 @@ cnpm install -D vuepress@1.5.2
 │  ├─ .vuepress
 │  │  ├─ public
 │  │  │  ├─ img
-│  │  │  ├─ style
+│  │  │  ├─ styles
 │  │  │  └─ js
 │  │  └─ config.js
 │  ├─ blog
@@ -84,9 +76,39 @@ cnpm install -D vuepress@1.5.2
 
 如还有疑惑可参考本博客的文件夹配置
 ***
-![avatar](/img/2021-05-21-17-57-49.png)
+![avatar](./img/2021-05-21-17-57-49.png)
 ***
+在know文件夹有两个子分类对应着顶部子菜单的分类
 
+并且子类文件夹能够点击跳转，因此必须拥有```README.md```文件
+
+::: tip vuepress官网的目录配置（按照自己的需求选择文件夹配置方案）
+```
+.
+├── docs
+│   ├── .vuepress (可选的)
+│   │   ├── components (可选的)
+│   │   ├── theme (可选的)
+│   │   │   └── Layout.vue
+│   │   ├── public (可选的)
+│   │   ├── styles (可选的)
+│   │   │   ├── index.styl
+│   │   │   └── palette.styl
+│   │   ├── templates (可选的, 谨慎配置)
+│   │   │   ├── dev.html
+│   │   │   └── ssr.html
+│   │   ├── config.js (可选的)
+│   │   └── enhanceApp.js (可选的)
+│   │ 
+│   ├── README.md
+│   ├── guide
+│   │   └── README.md
+│   └── config.md
+│ 
+└── package.json
+```
+:::
+***
 ::: danger 注意
 想要文件夹被识别，生成相应的路由路径
 

@@ -4,12 +4,12 @@ const plugins = require('./plugins.js')
 
 
 module.exports = {
-    title: 'Shyer',
+    title: '摸鱼の后花园',
     description: '一个小小的前端，拥有着大大的梦想~',
     dest: './dist',
     port: '9990',
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.png' }],
+        ['link', { rel: 'icon', href: '/img/logo.ico' }],
         // 引入jquery
         ["script", {
             "language": "javascript",

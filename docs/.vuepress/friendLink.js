@@ -1,4 +1,9 @@
-module.exports = [{
+module.exports = [
+    {
+        title: 'vuepress',
+        desc: 'Vue 驱动的静态网站生成器',
+        link: 'https://vuepress.vuejs.org/zh/'
+    }, {
         title: 'vuepress-theme-reco',
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",

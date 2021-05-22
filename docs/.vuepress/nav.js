@@ -1,17 +1,21 @@
 module.exports = [{
         text: '个人首页',
+        icon: 'reco-home',
         link: 'https://blog.csdn.net/'
     },
     {
         text: '知识分类',
+        icon: 'reco-document',
         link: '/know/',
         items: [
             { text: 'Vue', link: '/know/vue/' },
             { text: 'React', link: '/know/react/' },
+            { text: 'Linux', link: '/know/linux/' },
         ]
     },
     {
         text: '建站指南',
+        icon: 'reco-gitlab',
         link: '/guide/',
         items: [
             { text: '服务器', link: '/guide/server/' },
@@ -20,6 +24,7 @@ module.exports = [{
     },
     {
         text: '旁门左道',
+        icon: 'reco-other',
         link: '/other/',
         items: [
             { text: '浏览器扩展', link: '/other/webextend/' },
@@ -29,11 +34,12 @@ module.exports = [{
     },
     {
         text: '时间线',
-        link: '/timeline/',
         icon: 'reco-date',
+        link: '/timeline/',
     },
     {
         text: '关于我',
+        icon: 'reco-account',
         link: '/about/',
         items: [
             { text: '关于我', link: '/about/me/' },

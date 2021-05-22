@@ -1,5 +1,9 @@
 module.exports = [ // 插件配置
-    ["vuepress-plugin-auto-sidebar", {}],
+    ["vuepress-plugin-auto-sidebar", {
+        sort:{
+            mode: "desc"
+        }
+    }],
     ["@vuepress-reco/vuepress-plugin-kan-ban-niang", {
         theme: ["blackCat"],
         clean: false,

@@ -9,7 +9,6 @@ categories:
 tags: 
  - vue
  - vuepress
- - web
 publish: true
 sticky:
  - true
