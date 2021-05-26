@@ -12,6 +12,10 @@ publish: true
 autoGroup-1: vuepress
 autoPrev: vuepress_config
 ---
+
+博客创建指南第三章
+<!-- more -->
+
 ***
 ::: tip
 :::

@@ -12,6 +12,9 @@ publish: true
 autoGroup-1: vuepress
 autoPrev: vuepress_install
 ---
+
+博客创建指南第二章
+<!-- more -->
 ***
 `./docs/.vuepress/config.js`该文件为默认端项目配置文件
 
@@ -82,6 +85,10 @@ $homePageWidth = 960px
 $MQNarrow = 959px
 $MQMobile = 719px
 $MQMobileNarrow = 419px
+```
++ 引入css（方式二）
+``` js
+['link', { rel: 'stylesheet', href: '/css/style.css' }]
 ```
 
 ### **1.2 themeConfig配置**

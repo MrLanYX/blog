@@ -11,6 +11,10 @@ tags:
 publish: true
 autoGroup-1: vuepress
 ---
+
+博客创建指南第一章
+<!-- more -->
+
 ***
 ::: tip
 采用vue官方的静态网页生成器
