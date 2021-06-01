@@ -1,7 +1,7 @@
 module.exports = [{
-        text: '个人首页',
+        text: '服务中心',
         icon: 'reco-home',
-        link: 'https://blog.csdn.net/'
+        link: 'https://server.weblyx.cn/'
     },
     {
         text: '知识分类',
@@ -11,9 +11,11 @@ module.exports = [{
             { text: 'Vue', link: '/know/vue/' },
             { text: 'React', link: '/know/react/' },
             { text: 'Linux', link: '/know/linux/' },
+            { text: 'GIS', link: '/know/GIS/' },
+            { text: 'git', link: '/know/git/' },
         ]
     },
-    {
+    { 
         text: '建站指南',
         icon: 'reco-gitlab',
         link: '/guide/',

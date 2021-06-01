@@ -7,7 +7,8 @@ module.exports = [
         title: 'vuepress-theme-reco',
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'http://www.likemashang.com/'
+        link: 'http://vuepress-theme-reco.recoluan.com',
+        // link: 'http://www.likemashang.com/',
     },
     {
         title: '午后南杂',

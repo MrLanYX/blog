@@ -32,4 +32,26 @@ mounted() {
 <!-- more -->
 ***
 ## **1. 描述**
+这个问题产生的主要原因：由于路由和子路由的mounted加载在同时引起
+
+主路由的initial还未初始化完成导致后续缺少数据
 ## **2. 解决**
+有两种解决方案，效果也不同，顺便在此记录一种刷新方式
+### 方案一、重新路由
+劫持案件重新路由
+``` js
+document.onkeydown = function(e) { //键盘按键控制
+    e = e || window.event;
+    if ((e.ctrlKey && e.keyCode == 82) || e.keyCode == 116) { //ctrl+R和F5刷新
+        ts.$router.push({ name: 'index' })
+        // return false;
+    }
+}
+```
+### 方案二、nextTick
+子路由的实例化在nextTick内执行
+``` js
+this.$nextTick(() => {
+    window.vAn = new this.$map.VisionAnalysis(window.initial);
+});
+```
