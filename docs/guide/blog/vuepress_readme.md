@@ -17,9 +17,6 @@ autoPrev: vuepress_config
 <!-- more -->
 
 ***
-::: tip
-:::
-
 ## **1. docs下的README.md**
 默认的主题提供了一个首页（Homepage）的布局 (用于 [vuepress首页](https://vuepress.vuejs.org/zh/))。
 作为一个个人的博客，这样的首页显然不具备阅读性，也不够美观，在后面的篇章中会介绍主题首页的配置
@@ -88,16 +85,43 @@ autoGroup-1: (侧标签所属分类)
 autoPrev: (位于某文件后)
 ---
 ```
-+ `title`
-+ `date`
-+ `author`
-+ `sidebar`
-+ `categories`和`tags`
-+ `publish`
-+ `autoGroup-1`
-+ `autoPrev`
++ `title`：文章标题，不填写默认使用文档中的一级标题`# 一级标题`
++ `date`：记录文件的创建日期，用于排序和显示（vscode用户推荐使用插件Insert Date String快捷键ctrl + shift + i 生成当前时间）
++ `author`：文章作者，用于多人同博客区分，可不填
++ `sidebar`：右侧文件内标题导航，建议开启（`sidebar: 'auto'`）
++ `categories`和`tags`：reco主题自带的分类和标签功能
+    - 需要引用主题后在`config.js`中添加额外的顶部导航
+    ``` js
+    themeConfig: {
+        blogConfig: { // 插入的顶部导航栏
+            category: {
+                location: 2, // 在导航栏菜单中所占的位置，默认2
+                text: '分类' // 默认文案 “分类”
+            },
+            tag: {
+                location: 3, // 在导航栏菜单中所占的位置，默认3
+                text: '标签' // 默认文案 “标签”
+            }
+        },
+    }
+    ```
+    - 无需在`nav.js`中额外设置
++ `publish`：是否发布`true`或`false`
+  ::: danger
+  publish配置真假并不影响文件的构建生成，false只是不在首页的列表中显示
+
+  适用于每个文件夹的README.md文件
+
+  这个文件必要但不适合命名书写主要内容，更适合大纲描述
+  :::
++ `autoGroup-1`：测导航分组分类
+    - 同名分组的文件将被整合在一起
+    - 分组排序顺序如下
+    - `autoGroup+2`>`autoGroup+1`>`autoGroup-1`>`autoGroup-2`
++ `autoPrev`：组内排序
+    - 当前文件排在谁的后面
+    - 填写前一个文件的名字不需要带`.md`
 
 以上为个人认为的常用属性
 
 更为详细的属性访问[vuepress-auto-sidebar](https://shanyuhai123.github.io/vuepress-plugin-auto-sidebar/zh/)官网查看
-## **总结**

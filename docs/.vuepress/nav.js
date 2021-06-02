@@ -1,5 +1,5 @@
 module.exports = [{
-        text: '服务中心',
+        text: '微服务中心',
         icon: 'reco-home',
         link: 'https://server.weblyx.cn/'
     },
@@ -9,9 +9,11 @@ module.exports = [{
         link: '/know/',
         items: [
             { text: 'Vue', link: '/know/vue/' },
+            { text: 'JavaScript', link: '/know/js/' },
+            { text: 'CSS', link: '/know/css/' },
+            { text: 'GIS', link: '/know/GIS/' },
             { text: 'React', link: '/know/react/' },
             { text: 'Linux', link: '/know/linux/' },
-            { text: 'GIS', link: '/know/GIS/' },
             { text: 'git', link: '/know/git/' },
         ]
     },
@@ -33,7 +35,7 @@ module.exports = [{
             { text: '私人云盘', link: '/other/cloud/' },
             { text: '收藏夹', link: '/other/favorites/' },
         ]
-    },
+    }, 
     {
         text: '时间线',
         icon: 'reco-date',

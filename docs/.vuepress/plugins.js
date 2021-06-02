@@ -1,6 +1,6 @@
 module.exports = [ // 插件配置
     ["vuepress-plugin-auto-sidebar", {
-        sort:{
+        sort: {
             mode: "desc"
         }
     }],
@@ -8,7 +8,7 @@ module.exports = [ // 插件配置
         theme: ["blackCat"],
         clean: false,
         messages: {
-            welcome: '我是lookroot欢迎你的关注 ',
+            welcome: '我是Mr.Lan欢迎你的关注 ',
             home: '心里的花，我想要带你回家。',
             theme: '好吧，希望你能喜欢我的其他小伙伴。',
             close: '再见哦'
@@ -33,5 +33,14 @@ module.exports = [ // 插件配置
             replace: false, // false 默认图 true 换图 需要填写httpUrl地址
             httpUrl: 'http://www.zpzpup.com/assets/image/sakura.png' // 绝对路径
         }
-    }]
+    }],
+    ["dynamic-title",
+        {
+            showIcon: "/favicon.ico",
+            showText: "(/≧▽≦/)咦！又好了！",
+            hideIcon: "/failure.ico",
+            hideText: "(●—●)喔哟，崩溃啦！",
+            recoverTime: 2000
+        }
+    ]
 ]
