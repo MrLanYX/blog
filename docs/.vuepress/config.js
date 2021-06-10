@@ -31,7 +31,12 @@ module.exports = {
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(hm, s);
             })();
-        `]
+        `],
+        // 百度爬虫校验
+        ['meta',{
+            "name":"baidu-site-verification",
+            "content":"code-Ml8ZlsHW5O",
+        }]
     ],
     markdown: {
         lineNumbers: true

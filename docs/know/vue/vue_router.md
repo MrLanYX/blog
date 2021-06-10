@@ -9,7 +9,7 @@ tags:
  - vue
  - router
 publish: true
-autoGroup-1: vue小问题
+autoGroup-1: vue问题
 ---
 ***
 ## **1. 描述**

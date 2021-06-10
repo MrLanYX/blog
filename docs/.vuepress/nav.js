@@ -32,7 +32,6 @@ module.exports = [{
         link: '/other/',
         items: [
             { text: '浏览器扩展', link: '/other/webextend/' },
-            { text: '私人云盘', link: '/other/cloud/' },
             { text: '收藏夹', link: '/other/favorites/' },
         ]
     }, 
