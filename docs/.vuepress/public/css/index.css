@@ -1,0 +1,6 @@
+.home-blog .hero>div {
+    border-radius: 5%;
+    box-shadow: rgb(0 0 0 / 50%) 0px 5px 18px;
+    background: #ffffff40;
+    padding: 20px 20px 20px 10px;
+}

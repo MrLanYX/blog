@@ -10,6 +10,7 @@ module.exports = {
     port: '9990',
     head: [
         ['link', { rel: 'icon', href: '/img/logo.ico' }],
+        ['link', { rel: 'stylesheet', href: '/css/index.css' }],
         // 引入jquery
         ["script", {
             "language": "javascript",
@@ -23,7 +24,7 @@ module.exports = {
             "src": "/js/MouseClickEffect.js"
         }],
         // 百度统计
-        ['script',{},`
+        ['script', {}, `
             var _hmt = _hmt || [];
             (function() {
                 var hm = document.createElement("script");
@@ -33,9 +34,9 @@ module.exports = {
             })();
         `],
         // 百度爬虫校验
-        ['meta',{
-            "name":"baidu-site-verification",
-            "content":"code-Ml8ZlsHW5O",
+        ['meta', {
+            "name": "baidu-site-verification",
+            "content": "code-Ml8ZlsHW5O",
         }]
     ],
     markdown: {
@@ -45,7 +46,8 @@ module.exports = {
     themeConfig: {
         type: 'blog', // 主题类型
         nav: nav, // 自定义顶部导航栏
-        authorAvatar: 'img/head.png', // 首页头像文件
+        authorAvatar: 'img/head.JPG', // 首页头像文件
+        author: 'Mr.Lan',
         blogConfig: { // 插入的顶部导航栏
             category: {
                 location: 2, // 在导航栏菜单中所占的位置，默认2
