@@ -39,6 +39,11 @@ module.exports = {
             "content": "code-Ml8ZlsHW5O",
         }]
     ],
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     markdown: {
         lineNumbers: true
     },
