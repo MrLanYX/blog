@@ -95,3 +95,52 @@ autoPrev: server_2
 等待写入结果，成功后关机拔去U盘就能正常启动了
 
 ## **3. 后续优化**
+
+系统搞定之后优化下个方面的配置
+
+### 3.1 换源
+
+编辑`/etc/apt/sources.list`文件更换源
+
+若是 Ubuntu ，将文件内容替换成以下内容：
+
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse
+> deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse
+
+若是 Debian，将文件内容替换成以下内容：
+
+> deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+> deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+> deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+> deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
+> #deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
+> #deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ sid main contrib non-free
+
+更新下：输入`apt-get update`和`apt-get upgrade`
+
+::: danger
+`apt-get upgrade` 的提示中有个选项要选择 NO
+:::
+
+### 3.2 更新时间
+
+`ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shanghai" > /etc/timezone`
+
+### 3.3 网络优化
+
+这方面按照自己的需求进行修改，可以固定，也可以自动分配，还能去除网线配置WiFi
+
+## 4. 总结
+
+到此N1改服务器的步骤就全部完成了
+
+剩余的按照自己无服务的要求去配置自己需要的环境
