@@ -4,4 +4,4 @@ author: 'Mr.Lan'
 sidebar: false
 publish: false
 ---
-当前服务器使用的是armbian系统，记录当前系统下Linux命令使用和一些软件
+当前服务器使用的是基于debian的armbian系统，记录当前系统下Linux命令使用和一些软件

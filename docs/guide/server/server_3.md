@@ -13,7 +13,7 @@ publish: true
 autoPrev: server_2
 ---
 
-服务器搭建指南第二章
+服务器搭建指南第三章
 <!-- more -->
 ## **1. U盘启动**
 
