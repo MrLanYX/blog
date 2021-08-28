@@ -56,9 +56,9 @@ ip6tables -P OUTPUT DROP
 
 ``` sh
 # 开启192.168.0.1网管下内网访问22端口
-iptables -A INPUT -s 192.168.0.1/24 -p tcp --dport 22 -j ACCEPT
-iptables -A FORWARD -s 192.168.0.1/24 -p tcp --dport 22 -j ACCEPT
-iptables -A OUTPUT -s 192.168.0.1/24 -p tcp --dport 22 -j ACCEPT
+iptables -A INPUT -s 192.168.0.0/24 -p tcp --dport 22 -j ACCEPT
+iptables -A FORWARD -s 192.168.0.0/24 -p tcp --dport 22 -j ACCEPT
+iptables -A OUTPUT -s 192.168.0.0/24 -p tcp --dport 22 -j ACCEPT
 ```
 + 以ipv4的方式局域内网访问22端口
 + ipv6无需开启
@@ -182,7 +182,7 @@ crontab -l -u test //列出用户test的所有调度任务
 ``` sh
 crontab -r //删除所有任务调度工作
 ```
-### 3.9任务执行如果报错：
+### 3.9 任务执行如果报错：
 
 CRON[9435]: (CRON) info (No MTA installed, discarding output)
 解决方法：apt-get install postfix
