@@ -11,7 +11,7 @@ tags:
  - router
  - GIS
 publish: true
-autoGroup-1: 与vue组合
+autoGroup-2: GIS
 ---
 在跳转路由进入路由页面后，进行页面的刷新导致组件内工具的实例化缺少initialView
 ::: danger

@@ -11,8 +11,6 @@ module.exports = [{
             { text: 'Vue', link: '/know/vue/' },
             { text: 'JavaScript', link: '/know/js/' },
             { text: 'CSS', link: '/know/css/' },
-            { text: 'GIS', link: '/know/GIS/' },
-            { text: 'React', link: '/know/react/' },
             { text: 'Linux', link: '/know/linux/' },
             { text: 'git', link: '/know/git/' },
         ]
