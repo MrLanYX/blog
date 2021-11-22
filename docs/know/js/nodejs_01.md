@@ -9,7 +9,7 @@ tags:
  - nodejs
  - js
  - egg
-publish: true
+publish: false
 autoGroup-1: NodeJs
 # autoPrev: 
 ---
