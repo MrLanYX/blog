@@ -45,7 +45,8 @@ module.exports = [{
         items: [
             { text: '关于我', link: '/about/me/' },
             { text: '简历', link: '/about/resume/' },
-            { text: 'github', link: 'https://github.com/shyerLan' },
+            { text: 'github', link: 'https://github.com/MrLanYX' },
+            { text: 'gitee', link: 'https://gitee.com/mrLanyx' },
         ]
     }
 ]

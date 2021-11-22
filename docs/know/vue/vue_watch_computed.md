@@ -1,6 +1,6 @@
 ---
 title: Vue中的watch与computed
-date: 
+date: 2021-11-22 19:40:14
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
@@ -11,7 +11,7 @@ publish: true
 autoGroup-1: 知识点
 # autoPrev:
 ---
-> Vue中的watch与computed差异和应用环境
+Vue中的watch与computed差异和应用环境
 <!-- more -->
 ***
 

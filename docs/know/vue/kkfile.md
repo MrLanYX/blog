@@ -11,7 +11,7 @@ tags:
  - 在线预览
  - java
 publish: false
-# autoGroup-1:
+autoGroup-1: 知识点
 # autoPrev: 
 ---
 

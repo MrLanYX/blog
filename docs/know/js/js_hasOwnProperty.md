@@ -1,6 +1,6 @@
 ---
 title: js中的hasOwnProperty属性判断器
-date: 
+date: 2021-11-19 19:40:03
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
@@ -11,7 +11,7 @@ publish: true
 autoGroup-1: js知识点
 # autoPrev:
 ---
-> hasOwnProperty用来判断自身属性是否存在[原文](https://www.cnblogs.com/weiqinl/p/8683207.html)
+hasOwnProperty用来判断自身属性是否存在[原文](https://www.cnblogs.com/weiqinl/p/8683207.html)
 <!-- more -->
 ***
 

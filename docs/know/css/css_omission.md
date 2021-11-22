@@ -1,6 +1,6 @@
 ---
 title: 文字省略
-date: 
+date: 2021-11-20 19:39:35
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
@@ -11,7 +11,7 @@ publish: true
 autoGroup-1: 运用
 # autoPrev:
 ---
-> 利用css进行文字末尾省略
+利用css进行文字末尾省略
 <!-- more -->
 ***
 

@@ -1,17 +1,18 @@
 ---
 title: CSS3中使用tansform的scale导致文字抖动以及模糊的解决办法
-date: 
+date: 2021-11-21 19:39:42
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
  - 前端
 tags: 
  - css
+ - bug
 publish: true
 autoGroup-2: bug
 # autoPrev:
 ---
-> 转载[原文](https://www.cnblogs.com/wuzhi123/p/8686422.html)
+转载[原文](https://www.cnblogs.com/wuzhi123/p/8686422.html)
 <!-- more -->
 ***
 

@@ -7,6 +7,7 @@ categories:
  - 前端
 tags: 
  - js
+ - 闭包
 publish: true
 autoGroup-1: js知识点
 ---

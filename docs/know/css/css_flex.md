@@ -7,12 +7,13 @@ categories:
  - 前端
 tags: 
  - css
+ - flex
 publish: false
 autoGroup-1: 运用
 # autoPrev:
 ---
 
-> 简单介绍flex和它的常见使用场景
+简单介绍flex和它的常见使用场景
 <!-- more -->
 ***
 

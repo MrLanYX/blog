@@ -1,6 +1,6 @@
 ---
 title: js监听事件集合
-date: 
+date: 2021-11-19 19:39:57
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
@@ -11,7 +11,7 @@ publish: true
 autoGroup-1: js知识点
 # autoPrev:
 ---
-> 在js中常见事件集合[原文](https://blog.csdn.net/vincentblog/article/details/50629091)
+在js中常见事件集合[原文](https://blog.csdn.net/vincentblog/article/details/50629091)
 <!-- more -->
 ***
 
