@@ -53,6 +53,8 @@ module.exports = {
         nav: nav, // 自定义顶部导航栏
         authorAvatar: 'img/head.JPG', // 首页头像文件
         author: 'Mr.Lan',
+        // subSidebar: false, //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+        // sidebar: false,
         blogConfig: { // 插入的顶部导航栏
             category: {
                 location: 2, // 在导航栏菜单中所占的位置，默认2
@@ -83,8 +85,8 @@ module.exports = {
                 buttonText: '更新'
             }
         },
-        editLinks: true,
-        editLinkText: '在 GitHub 上编辑此页 ！',
+        // editLinks: false,
+        // editLinkText: '在 GitHub 上编辑此页 ！',
     },
     plugins: plugins,
 }

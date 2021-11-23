@@ -2,7 +2,7 @@
 title: 个人简历
 date: 2021-11-22 19:44:49
 author: 'Mr.Lan'
-navbar: true
+subSidebar: false
 sidebar: false
 isComment: false
 keys:

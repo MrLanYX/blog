@@ -15,7 +15,7 @@ autoGroup-1: js知识点
 <!-- more -->
 ***
 
-## ** 监听写法 **
+## **监听写法**
 ``` js
 document.getElementById("myBtn").addEventListener("click", function(){
 	document.getElementById("demo").innerHTML = "Hello World";
@@ -38,7 +38,7 @@ document.removeEventListener("click",event,false);
 - false 默认。事件句柄在冒泡阶段执行
 - 添加事件注意冒泡带来的影响，可以利用也可以避开灵活使用
 
-## ** 鼠标事件 **
+## **鼠标事件**
 - click 当用户点击某个对象时调用的事件句柄。
 - contextmenu 在用户点击鼠标右键打开上下文菜单时触发
 - dblclick 当用户双击某个对象时调用的事件句柄。
@@ -50,12 +50,12 @@ document.removeEventListener("click",event,false);
 - mouseout 鼠标从某元素移开。
 - mouseup 鼠标按键被松开。
 
-## ** 键盘事件 **
+## **键盘事件**
 - keydown 某个键盘按键被按下。
 - keypress 某个键盘按键被按下并松开。
 - keyup 某个键盘按键被松开。
 
-## ** 框架/对象（Frame/Object）事件 **
+## **框架/对象（Frame/Object）事件**
 - abort 图像的加载被中断。
 - beforeunload 该事件在即将离开页面（刷新或关闭）时触发
 - error 在加载文档或图像时发生错误。
@@ -67,7 +67,7 @@ document.removeEventListener("click",event,false);
 - scroll 当文档被滚动时发生的事件。
 - unload 用户退出页面。
 
-## ** 表单事件 **
+## **表单事件**
 - blur 元素失去焦点时触发
 - change 该事件在表单元素的内容改变时触发=
 - focus 元素获取焦点时触发
@@ -77,16 +77,16 @@ document.removeEventListener("click",event,false);
 - reset 表单重置时触发
 - search 用户向搜索域输入文本时触发
 
-## ** 剪贴板事件 **
+## **剪贴板事件**
 - copy 该事件在用户拷贝元素内容时触发
 - cut 该事件在用户剪切元素内容时触发
 - paste 该事件在用户粘贴元素内容时触发
 
-## ** 打印事件 **
+## **打印事件**
 - afterprint 该事件在页面已经开始打印，或者打印窗口已经关闭时触发
 - beforeprint 该事件在页面即将开始打印时触发
 
-## ** 拖动事件 **
+## **拖动事件**
 - drag 该事件在元素正在拖动时触发
 - dragend 该事件在用户完成元素的拖动时触发
 - dragenter 该事件在拖动的元素进入放置目标时触发
@@ -95,7 +95,7 @@ document.removeEventListener("click",event,false);
 - dragstart 该事件在用户开始拖动元素时触发
 - drop 该事件在拖动元素放置在目标区域时触发
 
-## ** 多媒体（Media）事件 **
+## **多媒体（Media）事件**
 - abort 事件在视频/音频（audio/video）终止加载时触发。
 - canplay 事件在用户可以开始播放视频/音频（audio/video）时触发。
 - canplaythrough 事件在视频/音频（audio/video）可以正常播放且无需停顿和缓冲时触发。
@@ -119,15 +119,15 @@ document.removeEventListener("click",event,false);
 - volumechange 事件在音量发生改变时触发。
 - waiting 事件在视频由于要播放下一帧而需要缓冲时触发。
 
-## ** 动画事件 **
+## **动画事件**
 - animationend 该事件在 CSS 动画结束播放时触发
 - animationiteration 该事件在 CSS 动画重复播放时触发
 - animationstart 该事件在 CSS 动画开始播放时触发
 
-## ** 过渡事件 **
+## **过渡事件**
 - transitionend 该事件在 CSS 完成过渡后触发。
 
-## ** 其他事件 **
+## **其他事件**
 - message 该事件通过或者从对象(WebSocket, Web Worker, Event Source 或者子 frame 或父窗口)接收到消息时触发
 - online 该事件在浏览器开始在线工作时触发。
 - offline 该事件在浏览器开始离线工作时触发。

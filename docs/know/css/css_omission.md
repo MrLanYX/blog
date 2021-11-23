@@ -15,7 +15,7 @@ autoGroup-1: 运用
 <!-- more -->
 ***
 
-## ** 解决 **
+## **解决**
 + 一行
 	``` css
 	white-space: nowrap;

@@ -15,7 +15,7 @@ hasOwnProperty用来判断自身属性是否存在[原文](https://www.cnblogs.c
 <!-- more -->
 ***
 
-## ** 对象的hasOwnProperty方法 **
+## **对象的hasOwnProperty方法**
 
 Object的hasOwnProperty()方法返回一个布尔值，判断对象是否包含特定的自身（非继承）属性。
 

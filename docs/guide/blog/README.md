@@ -27,7 +27,7 @@ sticky:
 ***
 
 此博客采用vue的静态网页生成器没有后台程序
-+ ***vuepress***
++***vuepress***
 
     vue官方的静态网页生成器
 
@@ -35,7 +35,7 @@ sticky:
 
     具体信息移至官网 [vuepress](https://vuepress.vuejs.org/zh/)
 
-+ ***reco主题***
++***reco主题***
 
     [午后南杂](https://www.recoluan.com/)提供的开源主题
 

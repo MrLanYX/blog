@@ -15,7 +15,7 @@ autoGroup-1: 运用
 <!-- more -->
 ***
 
-## ** CSS炫彩流光按钮 **
+## **CSS炫彩流光按钮**
 [原文地址](https://youtu.be/pdH5X2mXzPk)
 [教程地址](https://blog.csdn.net/qq_43413916/article/details/104084744)
 [B站转载](https://www.bilibili.com/video/av84440432)
