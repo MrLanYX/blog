@@ -5,7 +5,7 @@ const plugins = require('./plugins.js')
 
 module.exports = {
     title: '摸鱼の后花园',
-    description: '一个小小的前端，拥有着大大的梦想~',
+    description: '悠闲惬意(ฅ>ω<*ฅ)能不卷就不卷',
     dest: './dist',
     port: '9990',
     head: [
