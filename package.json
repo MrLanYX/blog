@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shyerLan/violet-blog.git"
+    "url": "git+https://github.com/MrLanYX/blog.git"
   },
   "bugs": {
-    "url": "https://github.com/shyerLan/violet-blog/issues"
+    "url": "https://github.com/MrLanYX/blog/issues"
   },
-  "homepage": "https://github.com/shyerLan/violet-blog#readme"
+  "homepage": "https://github.com/MrLanYX/blog#readme"
 }
