@@ -15,11 +15,11 @@ hasOwnProperty用来判断自身属性是否存在[原文](https://www.cnblogs.c
 <!-- more -->
 ***
 
-## **对象的hasOwnProperty方法**
+## **1. 对象的hasOwnProperty方法**
 
 Object的hasOwnProperty()方法返回一个布尔值，判断对象是否包含特定的自身（非继承）属性。
 
-### 判断自身属性
+### 1.1 判断自身属性
 ``` js
 var o = new Object();
 o.prop = 'exists';
@@ -34,7 +34,7 @@ changeO();
 o.hasOwnProperty('prop');  // false
 ```
 
-### 判断自身属性与继承属性
+### 1.2 判断自身属性与继承属性
 ``` js
 function foo() {
   this.name = 'foo'
@@ -61,7 +61,7 @@ console.log('sayGoodBy' in myPro) // true
 ::: try
 hasOwnProperty在`for...in...`中就能够起到过滤继承属性的作用
 :::
-## hasOwnProperty被覆盖
+## 2. hasOwnProperty被覆盖
 属性声明时hasOwnProperty属性覆盖原有方法
 ``` js
 var foo = {

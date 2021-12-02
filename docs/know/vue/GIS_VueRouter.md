@@ -37,7 +37,7 @@ mounted() {
 主路由的initial还未初始化完成导致后续缺少数据
 ## **2. 解决**
 有两种解决方案，效果也不同，顺便在此记录一种刷新方式
-### 方案一、重新路由
+### 2.1 方案一、重新路由
 劫持案件重新路由
 ``` js
 document.onkeydown = function(e) { //键盘按键控制
@@ -48,7 +48,7 @@ document.onkeydown = function(e) { //键盘按键控制
     }
 }
 ```
-### 方案二、nextTick
+### 2.2 方案二、nextTick
 子路由的实例化在nextTick内执行
 ``` js
 this.$nextTick(() => {
