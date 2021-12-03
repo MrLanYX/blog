@@ -8,7 +8,7 @@ categories:
 tags: 
  - js
 publish: true
-autoGroup-1: js知识点
+autoGroup-2: js知识点
 # autoPrev:
 ---
 hasOwnProperty用来判断自身属性是否存在[原文](https://www.cnblogs.com/weiqinl/p/8683207.html)

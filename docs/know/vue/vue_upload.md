@@ -10,7 +10,7 @@ tags:
  - minio
  - upload
 publish: true
-autoGroup-1: 知识点
+autoGroup-3: 扩展
 ---
 > 利用minio进行大文件的分片上传，分片上传的其中一种方式
 <!-- more -->

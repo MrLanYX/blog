@@ -8,7 +8,7 @@ categories:
 tags: 
  - js
 publish: true
-autoGroup-1: js知识点
+autoGroup-2: js知识点
 # autoPrev:
 ---
 在js中常见事件集合[原文](https://blog.csdn.net/vincentblog/article/details/50629091)

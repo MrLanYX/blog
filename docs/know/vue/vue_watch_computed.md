@@ -8,7 +8,7 @@ categories:
 tags: 
  - vue
 publish: true
-autoGroup-1: 知识点
+autoGroup-2: 知识点
 # autoPrev:
 ---
 Vue中的watch与computed差异和应用环境
