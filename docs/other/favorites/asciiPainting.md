@@ -1,5 +1,5 @@
 ---
-title: flex弹性盒模型
+title: 字符画生成网站
 date: 2021-12-02 14:07:16
 author: 'Mr.Lan'
 sidebar: 'auto'
@@ -15,13 +15,15 @@ publish: false
 ***
 
 ## 根据文字生成字符画
-http://patorjk.com/software/taag
-http://www.network-science.de/ascii/
+[http://patorjk.com/software/taag](http://patorjk.com/software/taag)
+
+[http://www.network-science.de/ascii/](http://www.network-science.de/ascii/)
 
 ## 根据图片生成字符画
-http://www.degraeve.com/img2txt.php
-http://life.chacuo.net/convertphoto2char
+[http://www.degraeve.com/img2txt.php](http://www.degraeve.com/img2txt.php)
+
+[http://life.chacuo.net/convertphoto2char](http://life.chacuo.net/convertphoto2char)
 
 ## 根据流程图生成字符画
-http://asciiflow.com/
+[http://asciiflow.com/](http://asciiflow.com/)
 

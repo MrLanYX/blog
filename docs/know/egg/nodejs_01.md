@@ -10,7 +10,7 @@ tags:
  - js
  - egg
 publish: false
-autoGroup-3: NodeJs
+autoGroup-1: NodeJs
 # autoPrev: 
 ---
 > 使用nodejs框架搭建前后分离版项目

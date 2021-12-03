@@ -55,7 +55,7 @@ module.exports = {
         author: 'Mr.Lan',
         subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         sidebarDepth: 1,
-        // sidebar: false,
+        sidebar: false,
         blogConfig: { // 插入的顶部导航栏
             category: {
                 location: 2, // 在导航栏菜单中所占的位置，默认2
