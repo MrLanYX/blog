@@ -23,6 +23,7 @@
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vuepress-plugin-auto-sidebar": "^2.2.3",
     "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sakura": "^1.1.0",
     "vuepress-plugin-social-share": "^1.0.0",

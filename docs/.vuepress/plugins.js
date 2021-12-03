@@ -42,5 +42,9 @@ module.exports = [ // 插件配置
             hideText: "(●—●)喔哟，崩溃啦！",
             recoverTime: 2000
         }
-    ]
+    ],
+    ["permalink-pinyin", {
+        lowercase: true, // Converted into lowercase, default: true
+        separator: '_' // Separator of the slug, default: '-'
+    }]
 ]

@@ -10,6 +10,7 @@ tags:
  - vuepress
 publish: true
 autoGroup-1: vuepress
+autoPrev: vuepress_start
 ---
 
 博客创建指南第一章

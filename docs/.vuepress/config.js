@@ -53,7 +53,8 @@ module.exports = {
         nav: nav, // 自定义顶部导航栏
         authorAvatar: 'img/head.JPG', // 首页头像文件
         author: 'Mr.Lan',
-        // subSidebar: false, //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+        subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+        sidebarDepth: 1,
         // sidebar: false,
         blogConfig: { // 插入的顶部导航栏
             category: {
@@ -78,6 +79,7 @@ module.exports = {
         // },
         friendLink: friendLink,
         lastUpdated: 'Last Updated',
+        search: true,
         searchMaxSuggestoins: 10,
         serviceWorker: {
             updatePopup: {

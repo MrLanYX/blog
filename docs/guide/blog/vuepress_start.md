@@ -14,7 +14,7 @@ sticky:
  - true
  - 1
  - 1
-#autoGroup-1: 首页
+autoGroup-1: vuepress
 ---
 
 ::: tip

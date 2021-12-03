@@ -1,8 +1,9 @@
-module.exports = [{
-        text: '微服务中心',
-        icon: 'reco-home',
-        link: 'https://server.weblyx.cn/'
-    },
+module.exports = [
+    // {
+    //     text: '微服务中心',
+    //     icon: 'reco-home',
+    //     link: 'https://server.weblyx.cn/'
+    // },
     {
         text: '知识分类',
         icon: 'reco-document',

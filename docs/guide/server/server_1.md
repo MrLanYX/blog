@@ -10,7 +10,7 @@ tags:
  - 斐讯N1
 publish: true
 # autoGroup-1: 
-# autoPrev: 
+autoPrev: server_0
 ---
 
 服务器搭建指南第一章
