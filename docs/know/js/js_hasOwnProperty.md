@@ -7,6 +7,7 @@ categories:
  - 前端
 tags: 
  - js
+ - hasOwnProperty
 publish: true
 autoGroup-2: js知识点
 # autoPrev:

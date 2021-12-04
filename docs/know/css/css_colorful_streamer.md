@@ -7,6 +7,7 @@ categories:
  - 前端
 tags: 
  - css
+ - C3动画
 publish: true
 autoGroup-1: 运用
 # autoPrev:

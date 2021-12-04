@@ -7,6 +7,7 @@ categories:
  - 前端
 tags: 
  - js
+ - 监听事件
 publish: true
 autoGroup-2: js知识点
 # autoPrev:

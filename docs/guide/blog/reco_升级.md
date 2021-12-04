@@ -4,11 +4,11 @@ date: 2021-12-03 10:58:33
 author: 'Mr.Lan'
 sidebar: false
 categories: 
- - 索引
  - 前端
 tags: 
  - vue
  - vuepress
+ - reco主题
 publish: true
 autoGroup-2: 主题应用
 autoPrev: reco_plugins

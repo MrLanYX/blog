@@ -8,6 +8,8 @@ categories:
 tags: 
  - vue
  - vuepress
+ - reco主题
+ - reco插件
 publish: true
 autoGroup-2: 主题应用
 autoPrev: reco_theme

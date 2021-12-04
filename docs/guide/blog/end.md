@@ -8,6 +8,7 @@ categories:
 tags: 
  - vue
  - vuepress
+ - blog
 publish: false
 autoGroup-3: 总结
 #autoPrev: 

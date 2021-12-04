@@ -7,6 +7,8 @@ categories:
  - 前端
 tags: 
  - vue
+ - watch
+ - computed
 publish: true
 autoGroup-2: 知识点
 # autoPrev:
