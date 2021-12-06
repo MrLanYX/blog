@@ -1,6 +1,6 @@
 --- 
 title: 自建服务器准备工作
-date: 2021-08-14 11:07:57
+date: 2021-08-14
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
@@ -68,7 +68,7 @@ autoPrev: server_1
 ![image](./img/ini.png)
 
 修改之后将山小炮网盘中N1文件夹中的文件解压
-![image](./img/2021-08-14%20114956.png)
+![image](./img/2021001.png)
 
 把`meson-gxl-s905d-phicomm-n1-xiangsm.dtb`文件放到ini配置文件对应的目录中
 
