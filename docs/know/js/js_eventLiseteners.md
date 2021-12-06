@@ -14,7 +14,6 @@ autoGroup-2: js知识点
 ---
 在js中常见事件集合[原文](https://blog.csdn.net/vincentblog/article/details/50629091)
 <!-- more -->
-***
 
 ## **1. 监听写法**
 ``` js

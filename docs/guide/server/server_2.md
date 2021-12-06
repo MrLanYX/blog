@@ -65,10 +65,10 @@ autoPrev: server_1
 :::
 
 `dtb/uEnv.ini` 文件编辑
-![image](img/ini.png)
+![image](./img/ini.png)
 
 修改之后将山小炮网盘中N1文件夹中的文件解压
-![image](img/2021-08-14%20114956.png)
+![image](./img/2021-08-14%20114956.png)
 
 把`meson-gxl-s905d-phicomm-n1-xiangsm.dtb`文件放到ini配置文件对应的目录中
 

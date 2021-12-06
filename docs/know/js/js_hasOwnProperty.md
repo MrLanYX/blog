@@ -1,26 +1,26 @@
 ---
 title: js中的hasOwnProperty属性判断器
-date: 2021-11-19 19:40:03
+date: 2021-11-19
 author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
  - 前端
 tags: 
  - js
- - hasOwnProperty
 publish: true
 autoGroup-2: js知识点
 # autoPrev:
 ---
+
 hasOwnProperty用来判断自身属性是否存在[原文](https://www.cnblogs.com/weiqinl/p/8683207.html)
 <!-- more -->
-***
 
 ## **1. 对象的hasOwnProperty方法**
 
 Object的hasOwnProperty()方法返回一个布尔值，判断对象是否包含特定的自身（非继承）属性。
 
 ### 1.1 判断自身属性
+
 ``` js
 var o = new Object();
 o.prop = 'exists';
@@ -36,6 +36,7 @@ o.hasOwnProperty('prop');  // false
 ```
 
 ### 1.2 判断自身属性与继承属性
+
 ``` js
 function foo() {
   this.name = 'foo'
@@ -58,12 +59,15 @@ console.log(myPro.hasOwnProperty('sayHi')) // true
 console.log(myPro.hasOwnProperty('sayGoodBy')) // false
 console.log('sayGoodBy' in myPro) // true
 ```
+
 像后面几者都属于原型链上的方法不属于自身属性
+
 ::: try
 hasOwnProperty在`for...in...`中就能够起到过滤继承属性的作用
 :::
 ## 2. hasOwnProperty被覆盖
 属性声明时hasOwnProperty属性覆盖原有方法
+
 ``` js
 var foo = {
     hasOwnProperty: function() {
