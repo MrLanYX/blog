@@ -1,5 +1,5 @@
 --- 
-title: 利用minio分片上传
+title: 分片上传
 date: 2021-06-09 08:49:41
 author: 'Mr.Lan'
 sidebar: 'auto'

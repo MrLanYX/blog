@@ -1,5 +1,5 @@
 ---
-title: CSS3中使用tansform的scale导致文字抖动以及模糊的解决办法
+title: tansform的模糊bug
 date: 2021-11-21 19:39:42
 author: 'Mr.Lan'
 sidebar: 'auto'
@@ -12,7 +12,7 @@ publish: true
 autoGroup-2: bug
 # autoPrev:
 ---
-转载[原文](https://www.cnblogs.com/wuzhi123/p/8686422.html)
+CSS3中使用tansform的scale导致文字抖动以及模糊的解决办法,转载[原文](https://www.cnblogs.com/wuzhi123/p/8686422.html)
 <!-- more -->
 ***
 

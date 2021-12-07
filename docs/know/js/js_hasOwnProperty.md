@@ -1,5 +1,5 @@
 ---
-title: js中的hasOwnProperty属性判断器
+title: js中的hasOwnProperty
 date: 2021-11-19
 author: 'Mr.Lan'
 sidebar: 'auto'

@@ -1,5 +1,5 @@
 ---
-title: vue的mixins组件融合
+title: vue的mixins
 date: 2021-12-02 13:26:58
 author: 'Mr.Lan'
 sidebar: 'auto'

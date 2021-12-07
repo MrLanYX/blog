@@ -1,5 +1,5 @@
 ---
-title: jsorg申请二级域名配合GitHub部署静态网页
+title: jsorg免费二级域名
 date: 2021-12-02 14:25:24
 author: 'Mr.Lan'
 sidebar: 'auto'
