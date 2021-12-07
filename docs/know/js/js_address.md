@@ -85,4 +85,8 @@ date：2021-06-15 19:12:11
 
 ::: danger 错误警告
 因此想利用js的地址引用形成数据同步更新本就不是个合理的操作
+
+[vue](https://cn.vuejs.org/)的话应该使用[VueX](https://vuex.vuejs.org/zh/)进行管理数据
+::: right
+[VueX管理数据](../vue/vuex_guan_li_shu_ju.md)
 :::
