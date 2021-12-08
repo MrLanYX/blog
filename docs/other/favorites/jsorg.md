@@ -15,6 +15,9 @@ publish: false
 ---
 
 利用js.org申请二级域名部署在GitHub的vuepress博客
+::: danger
+time:2021-12-08 js.org关闭个人页面、博客等非NPM包，库，与JavaScript有明确直接关系的工具等项目的授权
+:::
 <!-- more -->
 ***
 
@@ -77,7 +80,7 @@ GitHub Pages功能在[官网的介绍](https://docs.github.com/en/pages/getting-
 
 1. 默认打包：`USERNAME.github.io/blog`访问会出现问题，但是使用了`js.org`完整配置完后不会出现问题
 2. 配置了根目录为`blog`进行打包：`USERNAME.github.io/blog`访问不会出现问题，但是使用了`js.org`完整配置完后会出现问题
-3. `github.io`和转发`js.org`域名访问在一个仓库中只能使用一个，不能同同时访问
+3. `github.io`和转发`js.org`域名访问在一个仓库中只能使用一个，不能同时访问
 ::: right
 详情 [vue根目录解读](../../know/vue/gen_mu_lu_pei_zhi.md)
 :::
@@ -87,5 +90,12 @@ GitHub Pages功能在[官网的介绍](https://docs.github.com/en/pages/getting-
 > 内容：会自动帮你写好，不用更改
 5. 接受条款和条件
 6. 回到要申请的仓库里，在setting的pages里面输入你的.js.org域名
+::: tip
+`在setting的pages里面输入你的.js.org域名`这一步操作能够简化
+
+作为 `gh-pages` 分支的根目录中添加名字为`CNAME`文件填写js.org域名（不带引号和http）
+
+如此就不需要每次强制提交修改设置
+:::
 ![image](./img/20211206160218.png)
-7. 到[https://github.com/js-org/js.org](https://github.com/js-org/js.org)的`Pull requests`就可以看到你的申请,等待申请通过即刻
+1. 到[https://github.com/js-org/js.org](https://github.com/js-org/js.org)的`Pull requests`就可以看到你的申请,等待申请通过即刻
