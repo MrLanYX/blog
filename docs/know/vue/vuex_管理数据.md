@@ -8,10 +8,10 @@ categories:
 tags: 
  - vue
  - vuex
-publish: true
+publish: false
 autoGroup-2: 知识点
 # autoPrev: 
 ---
 
-1
+思考ing
 <!-- more -->
