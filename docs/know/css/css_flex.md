@@ -173,4 +173,31 @@ flex-wrap属性定义，如果一条轴线排不下，如何换行。默认情�
     - `align-items`->内容自身在交叉轴上位置
     - `align-content`->主轴换行后行之间的间隔关系
 
-## **3. 项目的属性**
+## **3. 内容的属性**
+
+以下6个属性设置在项目上。
+
++ `order` 定义项目的排列顺序。数值越小，排列越靠前，默认为0。
++ `flex-grow` 定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
+::: tip
+![flex-grow](https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071014.png)
+如果所有项目的flex-grow属性都为1，则它们将等分剩余空间（如果有的话）。如果一个项目的flex-grow属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍。
+:::
++ `flex-shrink` 定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
+::: tip
+如果所有项目的flex-shrink属性都为1，当空间不足时，都将等比例缩小。如果一个项目的flex-shrink属性为0，其他项目都为1，则空间不足时，前者不缩小。
+![flex-shrink](https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071015.jpg)
+:::
++ `flex-basis`
+  - 定义了在分配多余空间之前，项目占据的主轴空间（main size）
+  - 浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小。
+  - 它可以设为跟`width`或`height`属性一样的值（比如350px），则项目将占据固定空间。
++ `flex`
+  - 是`flex-grow`, `flex-shrink` 和 `flex-basis`的简写，默认值为`0 1 auto`。后两个属性可选。
+  - 该属性有两个快捷值：`auto (1 1 auto)` 和 `none (0 0 auto)`。
++ `align-self`
+  - 允许单个项目有与其他项目不一样的对齐方式
+  - 可覆盖align-items属性。默认值为auto
+  - 该属性可能取6个值，除了auto，其他都与align-items属性完全一致。
+  - ![align-self](https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071016.png)
+

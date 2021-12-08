@@ -43,8 +43,7 @@ module.exports = [
             { text: '关于我', link: '/about/me/' },
             { text: '简历', link: '/about/resume/' },
             { text: '微服务中心', link: 'https://server.weblyx.cn/' },
-            { text: 'github', link: 'https://github.com/MrLanYX' },
-            { text: 'gitee', link: 'https://gitee.com/mrLanyx' },
+            { text: 'github', link: 'https://github.com/MrLanYX' }
         ]
     }
 ]

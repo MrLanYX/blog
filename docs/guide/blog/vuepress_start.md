@@ -13,7 +13,7 @@ publish: true
 sticky:
  - true
  - 1
- - 1
+ - 2
 autoGroup-1: vuepress
 ---
 

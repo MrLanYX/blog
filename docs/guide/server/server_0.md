@@ -13,7 +13,7 @@ publish: true
 sticky:
  - true
  - 1
- - 1
+ - 3
 #autoGroup-1: 首页
 ---
 介绍本博客所采用的服务器搭建过程，采用斐讯N1电视盒子自建服务器
