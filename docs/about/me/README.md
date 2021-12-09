@@ -2,8 +2,9 @@
 title: 关于我
 date: 
 author: 'Mr.Lan'
-sidebar: false
-publish: true
+layout: aboutMe
+navbar: true
+publish: false
 sticky:
  - true
  - 1
