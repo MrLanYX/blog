@@ -9,7 +9,7 @@ tags:
  - vue
  - vuepress
  - blog
-publish: false
+publish: true
 autoGroup-3: 总结
 #autoPrev: 
 ---

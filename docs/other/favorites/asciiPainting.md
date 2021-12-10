@@ -5,7 +5,7 @@ author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
  - 宝藏
-publish: false
+publish: true
 # autoGroup-1:
 # autoPrev:
 ---
