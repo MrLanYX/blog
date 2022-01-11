@@ -1,7 +1,7 @@
 module.exports = [
     { text: '首页', link: '/', icon: 'reco-home' },
     {
-        text: '知识分类',
+        text: '知识点',
         icon: 'reco-document',
         link: '/know/',
         items: [
