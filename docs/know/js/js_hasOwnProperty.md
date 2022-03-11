@@ -62,7 +62,7 @@ console.log('sayGoodBy' in myPro) // true
 
 像后面几者都属于原型链上的方法不属于自身属性
 
-::: try
+::: tip
 hasOwnProperty在`for...in...`中就能够起到过滤继承属性的作用
 :::
 ## 2. hasOwnProperty被覆盖
