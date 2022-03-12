@@ -83,9 +83,64 @@ export default {
 混入对象的data赋值,created,mounted等生命周期会在组件之前
 
 如果有相同的会被组件的覆盖，以组件自身的为准
+
 ### 3.2完全独立
 不同的组件之间融入了相同的mixin
 
 再各自内修改融入过来的变量或者方法，并不会互相影响
 
-mixin相当于完全拷贝致自己中，与其他组件的mixin完全独立
+mixin相当于完全拷贝致自己中，与其他组件的mixin完全独立，mixin的方法调用到自身不存在的变量也会在父级中寻找
+
+---
+
+``` js
+// 定义一个混录对象
+export const mixin = {
+    data(){
+        return{
+            mixin:1
+        }
+    },
+    created(){
+        console.log(this.mixin)
+        console.log(this.value)
+    }
+}
+
+// 第一个vue文件
+import mixin from './mixin.js'
+export default {
+    data(){
+        return{
+            value:1
+        }
+    },
+    mixins:[mixin],
+    created(){
+        // 1.这里会融入mixin自身的created
+        // 2.this.mixin自身存在输出 1
+        // 3.this.value向上查找vue自带输出 1
+
+        this.mixin=2
+        // 修改mixin中mixin的值为2 仅仅在本vue中生效
+    }
+}
+
+// 第二个vue文件
+import mixin from './mixin.js'
+export default {
+    data(){
+        return{
+            mixin:1,
+            value:1
+        }
+    },
+    mixins:[mixin],
+    created(){
+        // 依旧正常输出
+        // 1.这里会融入mixin自身的created
+        // 2.this.mixin自身存在输出 1 (上个文件对this.mixin的修改在此文件不影响)
+        // 3.this.value向上查找vue自带输出 1
+    }
+}
+```
