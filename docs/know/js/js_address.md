@@ -88,5 +88,5 @@ date：2021-06-15 19:12:11
 
 [vue](https://cn.vuejs.org/)的话应该使用[VueX](https://vuex.vuejs.org/zh/)进行管理数据
 ::: right
-[VueX管理数据](../vue/vuex_guan_li_shu_ju.md)
+[VueX管理数据](../vue/vue_vuex1.md)
 :::
