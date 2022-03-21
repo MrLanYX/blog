@@ -9,11 +9,11 @@ tags:
  - vue
  - vuex
 publish: true
-autoGroup-2: 知识点
+# autoGroup-2: 知识点
 # autoPrev: 
 ---
 
-了解什么是状态管理，为什么要使用vuex来实现
+第一篇 了解什么是状态管理，为什么要使用vuex来实现
 <!-- more -->
 
 ## **1. 什么是'状态管理'**

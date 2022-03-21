@@ -5,9 +5,11 @@ module.exports = [
         icon: 'reco-document',
         link: '/know/',
         items: [
-            { text: 'Vue', link: '/know/vue/vue_upload' },
             { text: 'JavaScript', link: '/know/js/js_bibao' },
             { text: 'CSS', link: '/know/css/css_flex' },
+            { text: 'nodejs', link: '/know/nodejs/nodejs_01' },
+            { text: 'Vue', link: '/know/vue/vue_upload' },
+            { text: 'Vuex', link: '/know/Vuex/vue_vuex1' },
             { text: 'Linux', link: '/know/linux/command' },
             { text: 'git', link: '/know/git/' },
         ]
@@ -42,7 +44,7 @@ module.exports = [
         items: [
             { text: '关于我', link: '/about/me/' },
             { text: '简历', link: '/about/resume/' },
-            { text: '微服务中心', link: 'https://server.weblyx.cn/' },
+            // { text: '微服务中心', link: 'https://server.weblyx.cn/' },
             { text: 'github', link: 'https://github.com/MrLanYX' }
         ]
     }
