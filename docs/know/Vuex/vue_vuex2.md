@@ -294,7 +294,30 @@ mutation 下的每一个方法都是回调方法，是 `store.commit` 的回调�
 
 异步的更新状态参考 [Action](#_2-4-vuex-action)
 
+### 2.3.1 Mutation 的辅助函数 mapMutations
 
+Mutation 的辅助函数与之前 State 的辅助函数 mapState 没有什么区别，依旧是一样的使用方式
+
+只不过不在 computed 计算属性中使用，Mutation 是方法，因此是加入 methods 属性中：
+
+``` js
+import { mapMutations } from 'vuex'
+
+export default {
+  // ...
+  methods: {
+    ...mapMutations([
+      'increment', // 将 `this.increment()` 映射为 `this.$store.commit('increment')`
+
+      // `mapMutations` 也支持载荷：
+      'incrementBy' // 将 `this.incrementBy(amount)` 映射为 `this.$store.commit('incrementBy', amount)`
+    ]),
+    ...mapMutations({
+      add: 'increment' // 将 `this.add()` 映射为 `this.$store.commit('increment')`
+    })
+  }
+}
+```
 
 
 
@@ -309,8 +332,51 @@ mutation 下的每一个方法都是回调方法，是 `store.commit` 的回调�
 
 ### 2.4 VueX - Action
 
+对于异步修改状态的方式，Vuex 也提供了 Action 方法
 
+其实本质就是提供一个方法，方法内自行调用 Mutation 的 commit 事件，就是允许把异步的操作提至外侧，本质的 commit 依旧是同步执行，简单示例：
 
+``` js
+const store = createStore({
+  state: {
+    count: 0
+  },
+  mutations: {
+    increment (state) {
+      state.count++
+    }
+  },
+  actions: {
+    increment (context) {
+      context.commit('increment')
+    }
+    // 或者 参数解构 来简化代码
+    increment ({commit}) {
+      commit('increment')
+    }
+  }
+})
+```
+
+形参 context 带有 Vuex 下的方法，例如 `context.state` 和 `context.getters` 可以获取状态
+
+---
+
+触发方式 通过 `store.dispatch('increment')`，相比 Mutation 在 Action 的内部允许**异步**
+
+``` js
+actions: {
+  incrementAsync ({ commit }) {
+    setTimeout(() => {
+      commit('increment')
+    }, 1000)
+  }
+}
+```
+
+### 2.4.1 Action 的辅助函数 mapAction
+
+Action 的辅助函数与 Mutation 的辅助函数 mapMutation 没有什么区别，依旧是一样的使用方式
 
 
 
@@ -326,12 +392,88 @@ mutation 下的每一个方法都是回调方法，是 `store.commit` 的回调�
 
 ### 2.5 VueX - Module
 
+为了应对过大的 Vuex 状态树，模块化管理 Module 产生了：
 
+``` js
+const moduleA = {
+  state: () => ({ ... }),
+  mutations: { ... },
+  actions: { ... },
+  getters: { ... }
+}
 
+const moduleB = {
+  state: () => ({ ... }),
+  mutations: { ... },
+  actions: { ... }
+}
 
+const store = createStore({
+  modules: {
+    a: moduleA,
+    b: moduleB
+  }
+})
 
+store.state.a // -> moduleA 的状态
+store.state.b // -> moduleB 的状态
+```
 
+将多个模块分开管理，合并至一个 store 对象中，模块之间也能够互相获取、更新状态
 
+### 2.5.1 VueX中Module局部状态
+
+对于模块内部的 mutation 和 getter 和 actions接收参数多了**根节点（rootState）的接收**：
+
+``` js
+const moduleA = {
+  state: () => ({
+    count: 0
+  }),
+  mutations: {
+    increment (state) {
+      // 这里的 `state` 对象是模块的局部状态
+      state.count++
+    }
+  },
+
+  getters: {
+    doubleCount (state) {
+      return state.count * 2
+    },
+    sumWithRootCount (state, getters, rootState) {
+      return state.count + rootState.count
+    }
+  },
+
+  actions: {
+    incrementIfOddOnRootSum ({ state, commit, rootState }) {
+      if ((state.count + rootState.count) % 2 === 1) {
+        commit('increment')
+      }
+    }
+  }
+}
+```
+
+::: warning
+关于 **模块嵌套**，**命名空间** 的解读和问题建议参考[官网](https://vuex.vuejs.org/zh/guide/modules.html#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4)，我对于此块的理解依旧存在疑问就不记录自身的理解
+:::
+
+## **3. VueX知识点小结**
+
+Vuex 方便了我们对于公共状态的使用
+
+本身也提供了：
++ 声明状态
++ 获取状态
++ 获取加工状态
++ 修改状态
++ 异步处理后修改状态等多种方法
+
+模块的管理方式也更加方便了我们对于各个需求功能分块管理
+
+接下来讲讲几个简单的 Vuex 的[使用场景](./vue_vuex3.md)
 
 
 
