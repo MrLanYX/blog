@@ -28,8 +28,10 @@ module.exports = [
         icon: 'reco-other',
         link: '/other/',
         items: [
-            { text: '浏览器扩展', link: '/other/webextend/' },
             { text: '收藏夹', link: '/other/favorites/asciiPainting' },
+            { text: '斐讯N1盒子', link: '/other/N1' },
+            { text: 'ESP32-CAM', link: '/other/esp32cam' },
+            { text: '移动电视盒cm211-1', link: '/other/cm211' },
         ]
     },
     {
