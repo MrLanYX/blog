@@ -5,6 +5,7 @@ author: 'Mr.Lan'
 sidebar: 'auto'
 categories: 
  - 服务器
+ - 硬件
 tags: 
  - debian
  - 斐讯N1

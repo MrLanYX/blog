@@ -11,7 +11,7 @@ module.exports = [
             { text: 'Vue', link: '/know/vue/vue_upload' },
             { text: 'Vuex', link: '/know/Vuex/vue_vuex1' },
             { text: 'Linux', link: '/know/linux/command' },
-            { text: 'git', link: '/know/git/' },
+            { text: 'git', link: '/know/git/cmd' },
         ]
     },
     {
@@ -28,7 +28,7 @@ module.exports = [
         icon: 'reco-other',
         link: '/other/',
         items: [
-            { text: '收藏夹', link: '/other/favorites/asciiPainting' },
+            { text: '网页收藏夹', link: '/other/favorites/asciiPainting' },
             { text: '斐讯N1盒子', link: '/other/toy/N1' },
             { text: 'ESP32-CAM', link: '/other/toy/esp32cam' },
             { text: '移动电视盒cm211-1', link: '/other/toy/cm211' },
