@@ -29,9 +29,10 @@ module.exports = [
         link: '/other/',
         items: [
             { text: '收藏夹', link: '/other/favorites/asciiPainting' },
-            { text: '斐讯N1盒子', link: '/other/N1' },
-            { text: 'ESP32-CAM', link: '/other/esp32cam' },
-            { text: '移动电视盒cm211-1', link: '/other/cm211' },
+            { text: '斐讯N1盒子', link: '/other/toy/N1' },
+            { text: 'ESP32-CAM', link: '/other/toy/esp32cam' },
+            { text: '移动电视盒cm211-1', link: '/other/toy/cm211' },
+            { text: 'windows人脸识别', link: '/other/toy/winhello' },
         ]
     },
     {
