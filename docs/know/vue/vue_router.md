@@ -11,7 +11,7 @@ tags:
 publish: true
 autoGroup-1: vue问题
 ---
-***
+
 ## **1. 描述**
 vue的router切换时，默认情况下会伴随着组件销毁
 

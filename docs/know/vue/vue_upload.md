@@ -343,7 +343,14 @@ computed: {
 + 状态为0时的秒传没法携带参数，原因是无法获取文件的地址，进行定位文件，也就没法与参数绑定
 + 后端合并超时影响前端接口相应，修改时常为下策
 
+---
 
+参考文章：
+[基于vue-simple-uploader封装文件分片上传、秒传及断点续传的全局上传插件](https://www.cnblogs.com/xiahj/p/vue-simple-uploader.html)
+[vue-simple-uploader](https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md)
+[simple-uploader.js](https://github.com/simple-uploader/Uploader/blob/develop/README_zh-CN.md)
+[Vue.Js（html5） + Java实现文件分片上传 ](https://www.cnblogs.com/life-of-coding/p/13072245.html)
+[WebUploader 实现大文件的断点续传功能](https://blog.csdn.net/weixin_38319645/article/details/83591524)
 
 
 

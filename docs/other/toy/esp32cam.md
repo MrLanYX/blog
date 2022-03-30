@@ -10,7 +10,7 @@ tags:
  - esp32
  - ESP32-CAM
  - 摄像头
-publish: true
+publish: false
 # autoGroup-1: 
 # autoPrev: 
 ---

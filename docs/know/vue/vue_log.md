@@ -17,6 +17,8 @@ autoGroup-2: 知识点
 webpack、vueconfig配置去除项目中的 `console.log()` 打印
 <!-- more -->
 
+***
+
 ## 去除代码中console.log打印
 
 ``` js

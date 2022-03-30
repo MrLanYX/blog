@@ -28,3 +28,4 @@ sticky:
 2. [斐讯N1 – 完美刷机Armbian教程](https://yuerblog.cc/2019/10/23/%E6%96%90%E8%AE%AFn1-%E5%AE%8C%E7%BE%8E%E5%88%B7%E6%9C%BAarmbian%E6%95%99%E7%A8%8B/)
 3. [Armbian-5.77 on N1, so far so good](https://www.right.com.cn/forum/thread-510423-1-1.html)
 4. [小白的N1上车记录（N1刷入Armbian5.9.4和EmuELEC）](https://post.smzdm.com/p/aqnl5kz2/)
+5. [使用到的工具-山小炮网盘](https://disk.sbsb.fun/)
