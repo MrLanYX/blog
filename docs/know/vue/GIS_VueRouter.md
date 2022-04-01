@@ -8,7 +8,7 @@ categories:
 tags: 
  - vue
  - router
- - GIS
+ - gis
 publish: true
 autoGroup-3: 扩展
 ---

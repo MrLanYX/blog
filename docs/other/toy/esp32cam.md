@@ -8,7 +8,7 @@ categories:
 tags: 
  - 开发板
  - esp32
- - ESP32-CAM
+ - esp32-cam
  - 摄像头
 publish: false
 # autoGroup-1: 

@@ -8,7 +8,6 @@ categories:
 tags: 
  - vue
  - mixin
- - vue钩子
 publish: true
 autoGroup-2: 知识点
 # autoPrev:

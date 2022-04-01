@@ -8,7 +8,7 @@ categories:
 tags: 
  - ECharts
  - geo
- - GIS
+ - gis
 publish: true
 ---
 
