@@ -8,7 +8,7 @@ categories:
 tags: 
  - git
 publish: true
-autoGroup-1: 指令
+# autoGroup-1: 
 # autoPrev: 
 ---
 
