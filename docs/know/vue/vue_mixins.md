@@ -9,7 +9,7 @@ tags:
  - vue
  - mixin
 publish: true
-autoGroup-2: 知识点
+# autoGroup-2: 
 # autoPrev:
 ---
 

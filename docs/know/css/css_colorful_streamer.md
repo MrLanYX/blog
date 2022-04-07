@@ -9,7 +9,7 @@ tags:
  - css
  - c3动画
 publish: true
-autoGroup-1: 运用
+# autoGroup-1: 
 # autoPrev:
 ---
 利用CSS3动画制作流光按钮

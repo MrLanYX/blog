@@ -10,7 +10,7 @@ tags:
  - 数据结构
  - 堆栈
 publish: true
-autoGroup-1: js问题
+# autoGroup-1: 
 ---
 ::: danger 问题描述
 在js中复杂数据（对象，数组）的等号赋值方式都是将其地址引用，这样在实际运用中有时能带来一定的好处（缺点占大多）

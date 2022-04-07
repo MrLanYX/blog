@@ -9,7 +9,7 @@ tags:
  - css
  - bug
 publish: true
-autoGroup-2: bug
+# autoGroup-2: 
 # autoPrev:
 ---
 CSS3中使用tansform的scale导致文字抖动以及模糊的解决办法,转载[原文](https://www.cnblogs.com/wuzhi123/p/8686422.html)

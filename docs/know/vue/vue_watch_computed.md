@@ -10,7 +10,7 @@ tags:
  - watch
  - computed
 publish: true
-autoGroup-2: 知识点
+# autoGroup-2: 
 # autoPrev:
 ---
 Vue中的watch与computed差异和应用环境

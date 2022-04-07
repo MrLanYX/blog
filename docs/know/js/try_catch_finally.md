@@ -10,7 +10,7 @@ tags:
  - nodejs
  - egg
 publish: true
-autoGroup-2: js知识点
+# autoGroup-2: 
 # autoPrev:
 ---
 

@@ -11,7 +11,7 @@ tags:
  - shell
  - 转载
 publish: true
-autoGroup-1: 指令
+# autoGroup-1: 
 # autoPrev: 
 ---
 

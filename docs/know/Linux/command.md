@@ -10,7 +10,7 @@ tags:
  - linux
  - 指令
 publish: true
-autoGroup-1: 指令
+# autoGroup-1: 
 # autoPrev: 
 ---
 

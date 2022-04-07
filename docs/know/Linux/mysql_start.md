@@ -11,6 +11,6 @@ tags:
  - 指令
  - mysql
 publish: false
-autoGroup-2: 软件
+# autoGroup-2: 软件
 # autoPrev: 
 ---

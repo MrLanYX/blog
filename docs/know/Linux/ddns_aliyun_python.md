@@ -10,7 +10,7 @@ tags:
  - ddns
  - python
 publish: false
-autoGroup-1: 指令
+# autoGroup-1: 
 autoPrev: ddns_aliyun_sh
 ---
 

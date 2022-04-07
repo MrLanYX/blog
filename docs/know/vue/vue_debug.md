@@ -9,7 +9,7 @@ tags:
  - vue
  - debug
 publish: true
-autoGroup-3: 扩展
+# autoGroup-3: 
 ---
 
 ## **1. VS code调试Vue.js的必要性**

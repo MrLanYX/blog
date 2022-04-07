@@ -12,6 +12,6 @@ tags:
  - 指令
  - nginx
 publish: false
-autoGroup-2: 软件
+# autoGroup-2: 
 # autoPrev: 
 ---

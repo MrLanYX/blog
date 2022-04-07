@@ -10,7 +10,7 @@ tags:
  - router
  - gis
 publish: true
-autoGroup-3: 扩展
+# autoGroup-3: 
 ---
 在跳转路由进入路由页面后，进行页面的刷新导致组件内工具的实例化缺少initialView
 ::: danger

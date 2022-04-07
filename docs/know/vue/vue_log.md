@@ -10,7 +10,7 @@ tags:
  - console
  - webpack
 publish: true
-autoGroup-2: 知识点
+# autoGroup-2: 
 # autoPrev: 
 ---
 

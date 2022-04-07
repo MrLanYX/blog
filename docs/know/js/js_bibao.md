@@ -11,7 +11,7 @@ tags:
  - 作用域
  - 销毁
 publish: true
-autoGroup-2: js知识点
+# autoGroup-2: 
 ---
 > 由于[js地址引用](./js_address.md)文章而顺带记录js中的闭包原理
 <!-- more -->
