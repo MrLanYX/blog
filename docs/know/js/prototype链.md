@@ -14,8 +14,6 @@ publish: true
 autoPrev: new_prototype_fun
 ---
 
-## 构建原型链
-
 在[构造函数，对象原型，实例对象三者之间的关系](./new_prototype_fun)文章中讲解了三者关系
 
 ![3](./img/sanzheguanxi.png)

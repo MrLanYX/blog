@@ -25,15 +25,15 @@ module.exports = {
             "src": "/js/MouseClickEffect.js"
         }],
         // 百度统计
-        ['script', {}, `
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "https://hm.baidu.com/hm.js?531dc9ded0def6bec59ad1df86812935";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        `],
+        // ['script', {}, `
+        //     var _hmt = _hmt || [];
+        //     (function() {
+        //         var hm = document.createElement("script");
+        //         hm.src = "https://hm.baidu.com/hm.js?531dc9ded0def6bec59ad1df86812935";
+        //         var s = document.getElementsByTagName("script")[0];
+        //         s.parentNode.insertBefore(hm, s);
+        //     })();
+        // `],
         // 百度爬虫校验
         ['meta', {
             "name": "baidu-site-verification",
