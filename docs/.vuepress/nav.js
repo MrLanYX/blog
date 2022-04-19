@@ -33,6 +33,7 @@ module.exports = [
             { text: 'ESP32-CAM', link: '/other/toy/esp32cam' },
             { text: '移动电视盒cm211-1', link: '/other/toy/cm211' },
             { text: 'windows人脸识别', link: '/other/toy/winhello' },
+            { text: 'SlimeVR全身追踪模块', link: '/other/toy/SlimeVR_MPU-6050' },
         ]
     },
     {
@@ -45,8 +46,8 @@ module.exports = [
         icon: 'reco-account',
         link: '/about/',
         items: [
-            { text: '关于我', link: '/about/me/' },
-            { text: '简历', link: '/about/resume/' },
+            { text: '关于我', link: '/about/aboutMe' },
+            { text: '简历', link: '/about/resuMe' },
             // { text: '微服务中心', link: 'https://server.weblyx.cn/' },
             { text: 'github', link: 'https://github.com/MrLanYX' }
         ]
