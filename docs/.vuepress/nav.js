@@ -48,7 +48,7 @@ module.exports = [
         items: [
             { text: '关于我', link: '/about/aboutMe' },
             { text: '简历', link: '/about/resuMe' },
-            // { text: '微服务中心', link: 'https://server.weblyx.cn/' },
+            { text: 'JS版俄罗斯方块', link: 'https://mrlanyx.github.io/Tetris' },
             { text: 'github', link: 'https://github.com/MrLanYX' }
         ]
     }
