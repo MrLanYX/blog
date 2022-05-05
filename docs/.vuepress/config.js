@@ -55,6 +55,7 @@ module.exports = {
         nav: nav, // 自定义顶部导航栏
         authorAvatar: 'img/head.jpg', // 首页头像文件
         author: 'Mr.Lan',
+        startYear: '2021',
         subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         sidebarDepth: 1,
         sidebar: false,
@@ -72,13 +73,13 @@ module.exports = {
         //     appId: '...', // your appId
         //     appKey: '...', // your appKey
         // },
-        // vssueConfig: {
-        //     platform: 'github',
-        //     owner: 'OWNER_OF_REPO',
-        //     repo: 'NAME_OF_REPO',
-        //     clientId: 'YOUR_CLIENT_ID',
-        //     clientSecret: 'YOUR_CLIENT_SECRET',
-        // },
+        vssueConfig: {
+            platform: 'github',
+            owner: 'MrLanYX',
+            repo: 'blog',
+            clientId: '6429547637ee6c02e1f9',
+            clientSecret: '953ea2c8999a6bf30688253c444204cad033723d',
+        },
         friendLink: friendLink,
         lastUpdated: 'Last Updated',
         search: true,

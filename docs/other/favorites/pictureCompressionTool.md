@@ -12,7 +12,7 @@ tags:
 
 ## 网页在线压缩图片
 
-支持JPG, PNG，SVG或GIF，大概能减少**70%**的大小，[网址](https://www.iloveimg.com/zh-cn/compress-image)
+支持JPG, PNG，SVG或GIF，大概能减少 **70%** 的大小，[网址](https://www.iloveimg.com/zh-cn/compress-image)
 
 ## 压缩图片软件
 
