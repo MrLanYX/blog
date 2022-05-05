@@ -1,5 +1,5 @@
 --- 
-title: vuepres-reco主题@1.6.6版本中不能利用配置左侧文章导航，修改依赖增加此功能
+title: vuepres-reco主题@1.6.6版本中不能配置左侧文章导航显隐，修改依赖增加此功能
 date: 2022-04-19 11:00:47
 author: 'Mr.Lan'
 sidebar: 'auto'
