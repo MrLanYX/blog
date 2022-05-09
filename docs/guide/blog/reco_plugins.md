@@ -14,7 +14,7 @@ publish: true
 autoGroup-2: 主题应用
 autoPrev: reco_theme
 ---
-***
+
 ## **1. 推荐插件**
 vuepress-reco支持许多实用的第三方插件
 

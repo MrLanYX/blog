@@ -15,6 +15,7 @@ autoPrev: vuepress_install
 
 博客创建指南第二章
 <!-- more -->
+![dom](./img/20220509152358.png)
 ***
 `./docs/.vuepress/config.js`该文件为默认端项目配置文件
 

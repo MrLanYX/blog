@@ -15,7 +15,10 @@ autoPrev: server_2
 ---
 
 服务器搭建指南第三章
+
 <!-- more -->
+
+![alt](./img/20220509153355.png)
 ## **1. U盘启动**
 
 ::: danger

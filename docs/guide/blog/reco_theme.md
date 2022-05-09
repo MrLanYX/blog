@@ -12,7 +12,8 @@ tags:
 publish: true
 autoGroup-2: 主题应用
 ---
-***
+![dom](./img/20220509152211.png)
+
 ## **1. 主题介绍**
 简洁的博客主题 [官网](http://vuepress-theme-reco.recoluan.com)
 ::: danger
