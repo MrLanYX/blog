@@ -36,9 +36,9 @@ module.exports = [ // 插件配置
     }],
     ["dynamic-title",
         {
-            showIcon: "/img/logo.ico",
+            // showIcon: "/blog/img/logo.ico",
             showText: "(/≧▽≦/)咦！又好了！",
-            hideIcon: "/img/logo.ico",
+            // hideIcon: "/blog/img/logo.ico",
             hideText: "(●—●)喔哟，崩溃啦！",
             recoverTime: 2000
         }

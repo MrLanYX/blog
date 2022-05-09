@@ -11,7 +11,7 @@ module.exports = {
     dest: './dist',
     port: '9990',
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.ico' }],
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/img/logo.svg' }],
         ['link', { rel: 'stylesheet', href: '/css/index.css' }],
         // 引入jquery
         ["script", {
