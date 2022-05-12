@@ -15,14 +15,14 @@ module.exports = [ // 插件配置
         }
     }],
     ["@vuepress-reco/vuepress-plugin-bgm-player", {
+        // autoplay:true,
         audios: [
-            // 网络文件示例
             {
-                name: '강남역 4번 출구',
-                artist: 'Plastic / Fallin` Dild',
-                url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-                cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-            },
+                name:'玫瑰少年（小提琴版）',
+                artist: 'Strictlyviolin荀博/王朝',
+                url:'https://m804.music.126.net/20220511152652/61f179ad242fa15fc3b19078f83d66ee/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14162454760/9c65/f746/e448/74ac330cd0d3aa0a45971a99da3b7372.m4a',
+                cover: 'http://p2.music.126.net/YT6IU71FJRs0uzgUZABexQ==/109951167355147080.jpg?param=130y130'
+            }
         ]
     }],
     ["sakura", { //页面樱花插件
