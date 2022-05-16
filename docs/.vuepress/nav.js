@@ -15,12 +15,13 @@ module.exports = [
         ]
     },
     {
-        text: '建站指南',
+        text: '专题指南',
         icon: 'reco-gitlab',
         link: '/guide/',
         items: [
-            { text: '博客', link: '/guide/blog/vuepress_start' },
-            { text: '服务器', link: '/guide/server/server_0' },
+            { text: '搭建博客', link: '/guide/blog/vuepress_start' },
+            { text: '搭建服务器', link: '/guide/server/server_0' },
+            { text: '前端项目转客户端', link: '/guide/electron_vue/electron_vue_1' },
         ]
     },
     {
