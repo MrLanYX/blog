@@ -21,7 +21,7 @@ module.exports = [
         items: [
             { text: '搭建博客', link: '/guide/blog/vuepress_start' },
             { text: '搭建服务器', link: '/guide/server/server_0' },
-            { text: '前端项目转客户端', link: '/guide/electron_vue/electron_vue_1' },
+            // { text: '前端项目转客户端', link: '/guide/vue_pc/electron_vue_1' },
         ]
     },
     {
