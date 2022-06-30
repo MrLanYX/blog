@@ -9,7 +9,7 @@ tags:
  - nodejs
  - js
  - gis
-publish: false
+publish: true
 # autoGroup-1: 
 # autoPrev: 
 ---
