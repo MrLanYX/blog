@@ -33,6 +33,7 @@ module.exports = [
             { text: '斐讯N1盒子', link: '/other/toy/N1' },
             { text: 'ESP32-CAM', link: '/other/toy/esp32cam' },
             { text: '移动电视盒cm211-1', link: '/other/toy/cm211' },
+            { text: '数字功能区小键盘', link: '/other/toy/keyboard' },
             { text: 'windows人脸识别', link: '/other/toy/winhello' },
             { text: 'SlimeVR全身追踪模块', link: '/other/toy/SlimeVR_MPU-6050' },
         ]
